@@ -41,7 +41,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # user devise for user auth
-gem 'devise', '~> 3.4.1'
+gem 'devise', '3.4.1'
 
 # use stripe for user payments
 gem 'stripe', '1.16.1'
