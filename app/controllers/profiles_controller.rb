@@ -1,6 +1,7 @@
 class ProfilesController < ApplicationController
    before_action :authenticate_user!
    before_action :only_current_user
+   
    def new
       # form where user can fill out there own profile.
       @user = User.find( params[:user_id] )
