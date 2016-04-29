@@ -1,6 +1,7 @@
 <div class="row">
    <div class="col-md-10 col-md-offset-2">
       <h1 class="text-center">User Profile</h1>
+      <%= image_tag @user.profile.avatar.url %>
       <%= @user.profile.first_name %> <%= @user.profile.last_name %>
       <%= @user.profile.job_title %>
       <% if current_user.plan_id == 2 %>
