@@ -1,0 +1,5 @@
+<ul>
+   <% @users.each |u do %>
+      <li><%= u.profile.first_name %> <%= u.profile.last_name %></li>  
+   <% end %>
+</ul>
